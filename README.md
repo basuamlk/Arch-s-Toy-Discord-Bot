@@ -1,4 +1,4 @@
-# Arch-s-Toy-Discord-Bot
+# Archs-Toy-Discord-Bot
 A simple Discord bot that uses some api's along with basic commands
 
 The API's used in this discord bot belong to the owners of: [Numbers](http://numbersapi.com) and [Discord](https://discordapp.com/)
