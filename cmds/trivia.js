@@ -1,6 +1,7 @@
 /*
 Trivia Command!
 Command that uses Numbers api (http://numbersapi.com) to give random number trivia.
+Thanks to Mashape (https://market.mashape.com/)
 -----------------------------------------------------------------------------------
 !trivia
 */ 
