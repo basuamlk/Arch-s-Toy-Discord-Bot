@@ -24,4 +24,6 @@ The configuration for your `./botsettings` folder is as follows:
 	
 >	"API_KEY": "Your API Key"}
 ***
+Commands
+--
 The bot commands can be found in the **./cmds** folder.
