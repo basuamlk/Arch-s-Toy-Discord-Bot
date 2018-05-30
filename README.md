@@ -10,7 +10,7 @@ The configuration for your `./botsettings` folder is as follows --
 
 >{"token": "Your Discord Token", 
 
->	"prefix": "!", 
+>	"prefix": "=", 
 	
 >	"API_KEY": "Your API Key"}
 ***
