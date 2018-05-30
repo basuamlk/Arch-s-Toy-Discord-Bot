@@ -22,7 +22,7 @@ The configuration for your **botsettings.json** folder is as follows:
 {
 "token": "Your Discord Token", 
 
-"prefix": "=", 
+"prefix": "!", 
 	
 "API_KEY": "Your API Key"
 }
