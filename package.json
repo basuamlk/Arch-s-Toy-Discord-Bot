@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.3.2",
+    "hoek": "^4.2.1",
     "unirest": "^0.5.1"
   }
 }
