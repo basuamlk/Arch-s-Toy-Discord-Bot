@@ -5,7 +5,7 @@ A simple Discord bot that uses some api's along with basic commands
 
 Somse API's found thanks to [Mashape](https://market.mashape.com)
 
-The API's used in this discord bot belong to the owners of: [Numbers](http://numbersapi.com).
+The API's used in this discord bot belong to the owners of: [Numbers](http://numbersapi.com) and [Random Quotes](https://market.mashape.com/ishanjain28/random-quotes).
 
 ## Modules
 
@@ -31,4 +31,5 @@ The configuration for your **botsettings.json** folder is as follows:
 
 The bot commands can be found in the **cmds** folder.
 
-The [trivia](https://github.com/basuamlk/Archs-Toy-Discord-Bot/blob/master/cmds/trivia.js) command utilises [Numbers](http://numbersapi.com) api.
+* The [trivia](https://github.com/basuamlk/Archs-Toy-Discord-Bot/blob/master/cmds/trivia.js) command utilises [Numbers](http://numbersapi.com) api.
+* The [quote](https://github.com/basuamlk/Archs-Toy-Discord-Bot/blob/master/cmds/quote.js) command utilises [RandomQuotes](https://market.mashape.com/ishanjain28/random-quotes) api
