@@ -31,5 +31,5 @@ The configuration for your **botsettings.json** folder is as follows:
 
 The bot commands can be found in the **cmds** folder.
 
-* The [trivia](https://github.com/basuamlk/Archs-Toy-Discord-Bot/blob/master/cmds/trivia.js) command utilises [Numbers](http://numbersapi.com) api.
-* The [quote](https://github.com/basuamlk/Archs-Toy-Discord-Bot/blob/master/cmds/quote.js) command utilises [RandomQuotes](https://market.mashape.com/ishanjain28/random-quotes) api
+* The [trivia](https://github.com/basuamlk/Archs-Toy-Discord-Bot/blob/master/cmds/trivia.js) command utilises [Numbers](http://numbersapi.com) API.
+* The [quote](https://github.com/basuamlk/Archs-Toy-Discord-Bot/blob/master/cmds/quote.js) command utilises [RandomQuotes](https://market.mashape.com/ishanjain28/random-quotes) API.
