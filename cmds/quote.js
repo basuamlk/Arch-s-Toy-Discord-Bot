@@ -1,5 +1,5 @@
 /*
-Displays famous quote
+Displays famous quotes using Random Quotes API found on Mashape (https://market.mashape.com/ishanjain28/random-quotes)
 ------------------------------
 !quote
 
@@ -23,5 +23,5 @@ const api = 'https://quotes.p.mashape.com/';
 
 }
 module.exports.help ={
-	name: 'ranquote'
+	name: 'quote'
 }
