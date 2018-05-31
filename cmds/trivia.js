@@ -7,18 +7,19 @@ Thanks to Mashape (https://market.mashape.com/)
 */ 
 const botSettings = require("../botsettings.json");
 const Discord = require('discord.js');
+const unirest = require('unirest'); // using unirest module to get api
+
 module.exports.run =  async (bot, message, args) => {
 // Example api url:
 //	const api_url = 'https://numbersapi.p.mashape.com/42/trivia?fragment=true&json=true&notfound=floor';
-const api = 'https://numbersapi.p.mashape.com/';
+let api = 'https://numbersapi.p.mashape.com/';
 let RanNum =  Math.floor((Math.random() * 1000));   // random number from 1 to 1000
 let num = RanNum.toString(); // example: let number = '10' instead of 10;
+let api_url = api+num+'/trivia?fragment=true&json=true&notfound=floor';	//const api_url = api+number+'/'+type+'?fragment=true&json=true&notfound=floor';
 
 	
-const api_url = api+num+'/trivia?fragment=true&json=true&notfound=floor';	//const api_url = api+number+'/'+type+'?fragment=true&json=true&notfound=floor';
-const unirest = require('unirest'); //using unirest module to get api
 	unirest.get(api_url)
-	.header("X-Mashape-Key", botSettings.API_KEY)
+	.header("X-Mashape-Key", botSettings.numbers_key) // numbers_key found in your botsettings file
 	.header("Accept", "text/plain")
 	.end(function (result) {		
   	console.log(result.body);//(result.status,result.headers,result.body) 

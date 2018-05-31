@@ -17,7 +17,8 @@ module.exports.run = async (bot, message, args) => { // run command
 			.addField('!bday', 'Sends a happy birthday to the one mentioned. \n`Syntax: !bday @<user>`')
 			.addField('!trivia','Gives a random number trivia.\n`Syntax: !trivia`')
 			.addField('!userinfo', 'Gives users\' information data. \n`Syntax: !userinfo @<user>`')
-			.addField('!avatar','Displays avatar of user. \n`Syntax: !avatar @<user>`');
+			.addField('!avatar','Displays avatar of user. \n`Syntax: !avatar @<user>`')
+			.addField('!quote','Gives a quote from a famous person or character. \n`Syntax: !quote`');
 			message.channel.sendEmbed(embed);
 }
 module.exports.help ={ // help command
